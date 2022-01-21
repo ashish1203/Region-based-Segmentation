@@ -20,8 +20,7 @@
 % m(33:33+117,44:44+128) = 1;
 % seg = region_seg(img,m,500);
 %
-% Coded by: Shawn Lankton (www.shawnlankton.com)
-%------------------------------------------------------------------------
+
 function seg = region_seg(I,init_mask,max_its,alpha,display)
   
   %-- default value for parameter alpha is .1
